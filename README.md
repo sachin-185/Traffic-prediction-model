@@ -38,9 +38,6 @@ This project evaluates an LSTM-based deep learning model for traffic prediction.
 Build an ML model to predict short-term traffic flow (e.g., vehicle count or speed) for a set of sensors/road segments for the next 15–60 minutes given historical sensor data.
 
 ### Model Architecture (Why LSTM?)
-
-A stacked LSTM network was selected because:
-
 - Traffic data is highly temporal and sequential, with autocorrelation and rush-hour patterns.  
 - LSTM is designed to retain long-term dependencies, unlike simple feed-forward models.  
 - Works well in multivariate sensor-based forecasting where each timestep has many features (207 sensors).  
